@@ -1,0 +1,45 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Set the container size */
+.container {
+  max-width: 80rem;
+  margin: auto;
+}
+
+/* Floating */
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.cf {
+    *zoom: 1;
+}
+
