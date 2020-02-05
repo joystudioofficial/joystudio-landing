@@ -1,0 +1,114 @@
+/* Desktop Version */
+@media screen and (min-width: 61.875rem) {
+  .js-navigation {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  .js-navigation .container .btn-open-navigation-menu {
+    display: none;
+  }
+
+  .js-navigation .container .js-navigation-brand {
+    float: left;
+    line-height: 5rem;
+  }
+
+  .js-navigation .container .js-navigation-brand .js-navigation-logo {
+    color: #000;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-decoration: none;
+  }
+
+  .js-navigation .container .js-navigation-menu {
+    float: right;
+  }
+
+  .js-navigation .container .js-navigation-menu .js-nav-menu {
+    display: flex !important;
+    padding-top: 2rem;
+  }
+
+
+  .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item {
+    margin: auto 2.5rem;
+    list-style: none;
+  }
+  
+  .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item .js-nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: .2rem;
+    background-color: var(--primary-color);
+    transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    opacity: 0;
+  }
+
+  .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item .js-nav-link {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item:hover .js-nav-link::after {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+/* Mobile Version */
+@media screen and (max-width: 61.8125rem) {
+  .js-navigation {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid;
+  }
+
+  .js-navigation .container .btn-open-navigation-menu {
+    display: block;
+    border: transparent;
+    position: absolute;
+    top: 2.5rem;
+  }
+
+  .js-navigation .container .js-navigation-brand {
+    display: inline-block;
+  }
+
+  .js-navigation .container .js-navigation-brand .js-navigation-logo {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-decoration: none;
+  }
+
+  .js-navigation .container .js-navigation-menu {
+    display: none;
+  }
+}
