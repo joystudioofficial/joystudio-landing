@@ -3,3 +3,9 @@
 
 /* Navbar */
 @import '../components/_navbar.css';
+
+/* Sidebar Menu on Mobile Version */
+@import '../components/_sidebar.css';
+
+/* Landing Area / Jumbotron */
+@import '../components/_landing-area.css';

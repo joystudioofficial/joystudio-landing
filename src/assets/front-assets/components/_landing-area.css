@@ -1,0 +1,36 @@
+@media screen and (min-width: 61.875rem) {
+  .js-landing-area {
+    min-width: 100%;
+    height: 50.0rem;
+    margin-top: 5.3rem;
+    position: relative;
+  } 
+
+  .js-landing-area .container {
+    margin-top: 10rem;
+    position: relative;
+  }
+
+  .js-landing-area .container .column-left img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 61.8125rem) {
+  .js-landing-area {
+    min-width: 100%;
+    height: 50.0rem;
+    margin-top: 10rem;
+    position: relative;
+  } 
+
+  .js-landing-area .container {
+    margin-top: 10rem;
+    position: relative;
+  }
+
+  .js-landing-area .container .column-left img {
+    width: 100%;
+  }
+
+}

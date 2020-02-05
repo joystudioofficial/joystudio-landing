@@ -1,0 +1,99 @@
+@media screen and (min-width: 61.875rem) {
+  .js-side-bar-overlay {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 61.8125rem) {
+  .js-side-bar-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    display: none;
+  }
+
+  .js-side-bar-overlay.open {
+    display: block;
+  }
+
+  .js-side-bar-overlay .js-side-bar {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.8rem;
+    width: 20rem;
+    min-height: 50%;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+          box-sizing: border-box;
+    -webkit-box-shadow: 7px 0 7px rgba(0,0,0,0.25);
+    -moz-box-shadow: 7px 0 7px rgba(0,0,0,0.25);
+    -o-box-shadow: 7px 0 7px rgba(0,0,0,0.25);
+    box-shadow: 7px 0 7px rgba(0,0,0,0.25);
+    -webkit-transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -moz-transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -o-transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    border-radius: 0.4rem;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-header {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 3rem;
+    border-radius: 0.4rem 0.4rem 0 0;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-header .js-side-menu-brand .js-side-menu-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-header .btn-close-side-bar {
+    border: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-header .btn-close-side-bar span {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-section-menu {
+    margin-top: 2rem;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-section-menu .js-side-menu .js-side-item {
+    margin: 3rem 2rem;
+    list-style: none;
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-section-menu .js-side-menu .js-side-item:hover .js-side-link {
+    width: 100%;
+    opacity: 1;
+    color: var(--primary-color);
+  }
+
+  .js-side-bar-overlay .js-side-bar .container .js-side-section-menu .js-side-menu .js-side-item .js-side-link {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -moz-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -o-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+}

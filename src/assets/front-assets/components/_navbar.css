@@ -15,21 +15,25 @@
       -moz-box-sizing: border-box;
         -o-box-sizing: border-box;
             box-sizing: border-box;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   }
 
-  .js-navigation .container .btn-open-navigation-menu {
+  .js-navigation .container .btn-open-side-bar {
     display: none;
   }
 
   .js-navigation .container .js-navigation-brand {
     float: left;
-    line-height: 5rem;
+    line-height: 7rem;
   }
 
   .js-navigation .container .js-navigation-brand .js-navigation-logo {
     color: #000;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 3rem;
     text-decoration: none;
   }
 
@@ -54,6 +58,9 @@
     width: 0;
     height: .2rem;
     background-color: var(--primary-color);
+    -webkit-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -moz-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -o-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
     transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
     opacity: 0;
   }
@@ -81,34 +88,46 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    padding: 20px;
+    padding: 0.5rem;
     -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
         -o-box-sizing: border-box;
             box-sizing: border-box;
-    border: 1px solid;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);      
   }
 
-  .js-navigation .container .btn-open-navigation-menu {
+  .js-navigation .container .btn-open-side-bar {
     display: block;
     border: transparent;
     position: absolute;
-    top: 2.5rem;
+    top: 1.7rem;
+    cursor: pointer !important;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .js-navigation .container .btn-open-side-bar .menu-bar {
+    width: 2rem;
   }
 
   .js-navigation .container .js-navigation-brand {
     display: inline-block;
+    line-height: 6rem;
   }
 
   .js-navigation .container .js-navigation-brand .js-navigation-logo {
     text-align: center;
     color: #000;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-decoration: none;
   }
 
   .js-navigation .container .js-navigation-menu {
     display: none;
+    margin-top: 2rem;
   }
 }
