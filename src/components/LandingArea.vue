@@ -1,8 +1,24 @@
 <template>
   <div>
-    <div class="js-landing-area">
-      <div class="container">
-        <h1>This is landing area</h1>
+    <div id="landing-area">
+      <div class="js-landing-area">
+        <div class="container">
+          <div class="row">
+            <div class="column column-one column-sm-100 column-md-50">
+              <img src="@/assets/images/startup.svg" alt="" srcset="">
+            </div>
+            <div class="column column-two column-sm-100 column-md-50">
+              <h1>Joy <span style="color: #1DD1A1;">Studio</span></h1>
+              <p>Ease your life with us</p>
+              <a href="http://" class="btn btn-getting-start">Get Started</a>
+            </div>
+          </div>
+
+          <!-- Mouse Scroll Down -->
+          <div class="mouse">
+            <div class="ball"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
