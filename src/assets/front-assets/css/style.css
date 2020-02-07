@@ -1,11 +1,18 @@
 @import '_settings.css';
 @import '_variables.css';
 
+/* Josefin Sans Fonts */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/* Poppins Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
 /* Navbar */
 @import '../components/_navbar.css';
 
 /* Sidebar Menu on Mobile Version */
 @import '../components/_sidebar.css';
 
-/* Landing Area / Jumbotron */
+/* Landing area / jumbotron */
 @import '../components/_landing-area.css';

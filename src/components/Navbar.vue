@@ -54,8 +54,3 @@ export default {
   
 }
 </script>
-
-<style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-  @import './../assets/front-assets/css/style.css';
-</style>

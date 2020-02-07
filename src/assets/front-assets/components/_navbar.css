@@ -5,20 +5,16 @@
     display: block;
     height: auto;
     max-width: 100%;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1;
     padding: 20px;
     -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
         -o-box-sizing: border-box;
             box-sizing: border-box;
-    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    -o-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
   }
 
   .js-navigation .container .btn-open-side-bar {
@@ -31,7 +27,7 @@
   }
 
   .js-navigation .container .js-navigation-brand .js-navigation-logo {
-    color: #000;
+    color: #fff;
     font-weight: bold;
     font-size: 3rem;
     text-decoration: none;
@@ -66,11 +62,16 @@
   }
 
   .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item .js-nav-link {
-    color: #000;
+    color: #fff;
     text-decoration: none;
   }
 
   .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item:hover .js-nav-link::after {
+    width: 100%;
+    opacity: 1;
+  }
+  
+  .js-navigation .container .js-navigation-menu .js-nav-menu .js-nav-item.active .js-nav-link::after {
     width: 100%;
     opacity: 1;
   }
@@ -79,24 +80,19 @@
 /* Mobile Version */
 @media screen and (max-width: 61.8125rem) {
   .js-navigation {
-    background-color: transparent;
+    background-color: #fff;
     display: block;
     height: auto;
     max-width: 100%;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1;
     padding: 0.5rem;
     -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
         -o-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    -o-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);      
+            box-sizing: border-box;   
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   }
 
   .js-navigation .container .btn-open-side-bar {

@@ -1,23 +1,24 @@
 <template>
   <div class="home">
-    <Navbar></Navbar>
-
+    <!-- Landing Area -->
     <LandingArea></LandingArea>
+
+    <!-- Home Content -->
+    <HomeContent></HomeContent>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
+
 import LandingArea from '@/components/LandingArea.vue'
 
-import './../../node_modules/milligram/dist/milligram.min.css'
+import HomeContent from '@/components/HomeContent.vue'
 
 export default {
   name: 'home',
   components: {
-    Navbar,
-    LandingArea
+    LandingArea,
+    HomeContent
   }
 }
 </script>
