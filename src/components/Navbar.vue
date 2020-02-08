@@ -15,7 +15,6 @@
             <li class="js-nav-item"><a href="http://" class="js-nav-link">About</a></li>
             <li class="js-nav-item"><a href="http://" class="js-nav-link">Services</a></li>
             <li class="js-nav-item"><a href="http://" class="js-nav-link">Portfolio</a></li>
-            <li class="js-nav-item"><a href="http://" class="js-nav-link">Contact</a></li>
           </ul>
         </div>
       </div>

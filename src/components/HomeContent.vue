@@ -2,21 +2,22 @@
   <div>
 
     <!-- About -->
-    <div id="about-js-section">
+    <section id="about-js-section">
       <div class="container">
         <div class="row">
           <div class="column column-50 column-left">
             <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ut quibusdam quisquam, unde quia explicabo beatae harum debitis. Obcaecati vero quasi ea tempora aperiam similique laborum magni porro facere et.</p>
+            <p>Joy Studio is a group that is enthusiastic about making software. Joy Studio is currently focusing on the website and going into the mobile world (Android / IOS) in the future.
+            </p>
           </div>
           <div class="column column-50 column-right">
             <img src="@/assets/images/logo.png" alt="">
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div id="js-services-section">
+    <section id="js-services-section">
       <div class="container">
         <div class="js-services-header">
           <h1>Our Service</h1>
@@ -36,7 +37,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- How We Work -->
     <section id="how-js-work">
@@ -71,7 +72,58 @@
         </div>
       </div>
     </section>
-    
+
+    <!-- Portfolio section -->
+    <section id="js-portfolio-section">
+      <div class="container">
+        <div class="js-portfolio-header">
+          <h1>Our Work</h1>
+        </div>
+
+        <div class="js-portfolio-body">
+          <div class="row">
+            <div class="column column-100">
+              <div class="card">
+                <div class="row">
+                  <div class="column column-50 column-left">
+                    <span class="portfolio-name">
+                      Operational Dashboard Company
+                    </span>
+                  </div>
+                  <div class="column column-50 column-right">
+                    <img src="@/assets/images/Portfolio/OperationalApp.png" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Expertise -->
+    <section id="js-technology-section">
+      <div class="container">
+        <div class="js-tech-header">
+          <h1>Our Expertise</h1>
+        </div>
+
+        <div class="js-tech-body">
+          <div class="row">
+            <div class="column">
+              <img src="@/assets/images/web-technology/reactjs.png" alt="" srcset="">
+            </div>
+            <div class="column">
+              <img src="@/assets/images/web-technology/vue.png" alt="" srcset="">
+            </div>
+            <div class="column">
+              <img src="@/assets/images/web-technology/expressjs.png" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
@@ -110,6 +162,7 @@
       span {
         font-weight: bold;
         color: $primaryColor;
+        font-size: 2rem;
       }
 
       p {

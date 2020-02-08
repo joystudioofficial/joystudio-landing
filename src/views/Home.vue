@@ -5,6 +5,9 @@
 
     <!-- Home Content -->
     <HomeContent></HomeContent>
+
+    <!-- Footer -->
+    <Footer></Footer>
   </div>
 </template>
 
@@ -14,11 +17,14 @@ import LandingArea from '@/components/LandingArea.vue'
 
 import HomeContent from '@/components/HomeContent.vue'
 
+import Footer from '@/components/Footer.vue'
+
 export default {
   name: 'home',
   components: {
     LandingArea,
-    HomeContent
+    HomeContent,
+    Footer
   }
 }
 </script>
