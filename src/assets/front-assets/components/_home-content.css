@@ -1,0 +1,165 @@
+@media (min-width: 62rem) {
+  #about-js-section {
+    margin: 15rem auto;
+  }
+
+  #about-js-section .container .row .column.column-left {
+    text-align: left;
+  }
+  
+  #about-js-section .container .row .column.column-left h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  #about-js-section .container .row .column.column-left p {
+    text-align: justify;
+  }
+
+  #about-js-section .container .row .column.column-right {
+    text-align: right;
+  }
+
+  #about-js-section .container .row .column.column-right img {
+    width: 40rem;
+    -webkit-filter: drop-shadow(0 35px 50px rgba(0,0,0,0.3));
+    -moz-filter: drop-shadow(0 35px 50px rgba(0,0,0,0.3));
+    -o-filter: drop-shadow(0 35px 50px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 35px 50px rgba(0,0,0,0.3));
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  /* Services section */
+  #js-services-section {
+    margin: 15rem auto;
+  }
+
+  #js-services-section .container .js-services-header {
+    margin-bottom: 5rem;
+  }
+
+  #js-services-section .container .js-services-header h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  #js-services-section .container .js-services-body .row {
+    align-items: center !important;
+    justify-content: center;
+  }
+
+  #js-services-section .container .js-services-body .row .column .card {
+    border-radius: 10px 5px 10px 5px;
+    background: linear-gradient(225deg, #1fe0ac, #1abc91);
+    box-shadow: 0 20px 50px #159976;    
+    padding: 1.25rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  #js-services-section .container .js-services-body .row .column .card img {
+    width: 15rem;
+    display: block;
+    margin: 5rem auto;
+  }
+
+  #js-services-section .container .js-services-body .row .column .card .js-service {
+    margin-bottom: 4rem;
+    display: block;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 61.9375rem) {
+  #about-js-section {
+    margin: 10rem auto;
+  }
+
+  #about-js-section .container {
+    width: 100%;
+  }
+
+  #about-js-section .container .row {
+    align-items: center;
+  }
+
+  #about-js-section .container .row .column.column-50 {
+    max-width: 100%;
+  }
+
+  #about-js-section .container .row .column.column-left {
+    text-align: center;
+  }
+  
+  #about-js-section .container .row .column.column-left h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  #about-js-section .container .row .column.column-left p {
+    text-align: center;
+    margin: 3rem auto;
+  }
+
+  #about-js-section .container .row .column.column-right {
+    text-align: center;
+  }
+
+  #about-js-section .container .row .column.column-right img {
+    width: 40rem;
+    -webkit-filter: drop-shadow(0 35px 40px rgba(0,0,0,0.2));
+    -moz-filter: drop-shadow(0 35px 40px rgba(0,0,0,0.2));
+    -o-filter: drop-shadow(0 35px 40px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 35px 40px rgba(0,0,0,0.2));
+  }
+
+    /* Services section */
+    #js-services-section {
+      margin: 15rem auto;
+    }
+  
+    #js-services-section .container .js-services-header {
+      margin-bottom: 5rem;
+    }
+  
+    #js-services-section .container .js-services-header h1 {
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+  
+    #js-services-section .container .js-services-body .row {
+      align-items: center !important;
+      justify-content: center;
+    }
+  
+    #js-services-section .container .js-services-body .row .column .card {
+      border-radius: 10px 5px 10px 5px;
+      background: linear-gradient(225deg, #1fe0ac, #1abc91);
+      box-shadow: 0 20px 50px #159976;    
+      padding: 1.25rem;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #fff;
+    }
+  
+    #js-services-section .container .js-services-body .row .column .card img {
+      width: 15rem;
+      display: block;
+      margin: 5rem auto;
+    }
+  
+    #js-services-section .container .js-services-body .row .column .card .js-service {
+      margin-bottom: 4rem;
+      display: block;
+      font-size: 2rem;
+    }
+  
+}

@@ -16,3 +16,6 @@
 
 /* Landing area / jumbotron */
 @import '../components/_landing-area.css';
+
+/* Home Content Style */
+@import '../components/_home-content.css'

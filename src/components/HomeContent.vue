@@ -1,6 +1,43 @@
 <template>
   <div>
 
+    <!-- About -->
+    <div id="about-js-section">
+      <div class="container">
+        <div class="row">
+          <div class="column column-50 column-left">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ut quibusdam quisquam, unde quia explicabo beatae harum debitis. Obcaecati vero quasi ea tempora aperiam similique laborum magni porro facere et.</p>
+          </div>
+          <div class="column column-50 column-right">
+            <img src="@/assets/images/logo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="js-services-section">
+      <div class="container">
+        <div class="js-services-header">
+          <h1>Our Service</h1>
+        </div>
+
+        <div class="js-services-body">
+          <div class="row">
+            <div class="column column-50 column-left">
+              <div class="card">
+                <img src="@/assets/images/web-development.svg" alt="" srcset="">
+
+                <span class="js-service">
+                  Web Development
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- How We Work -->
     <section id="how-js-work">
       <div class="container">
@@ -11,24 +48,24 @@
         <div class="js-section-body">
           <main>
             <p>
-              <span>Rencanakan</span>
+              <span>Plan It</span>
               <br>
-              Rencanakan project sampai matang dan siap diimplementasi.
+              Plan the project until it is done and ready to be implemented.
             </p>
             <p>
-              <span>Implementasi</span>
+              <span>Implementation</span>
               <br>
-              Hasil matang yang sudah direncanakan langsung di implementasikan.
+              Mature results that have been planned are immediately implemented.
             </p>
             <p>
               <span>Testing / Recheck</span>
               <br>
-              Hasil yang sudah di implementasikan harus di check kembali agar tidak terjadi kesalahan.
+              The results that have been implemented must be checked again so that no errors occur.
             </p>
             <p>
-              <span>Deploy dan Testing</span>
+              <span>Deploy and Testing</span>
               <br>
-              Ketika aplikasi sudah jadi, test lagi dan analisis apa yang kurang. Ulangi dari nomor 1.
+              When the application is ready, test again and analyze what is lacking. Repeat from number 1.
             </p>
           </main>
         </div>
