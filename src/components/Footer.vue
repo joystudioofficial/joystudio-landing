@@ -35,11 +35,6 @@
                   <img src="@/assets/images/social-media/twitter.svg" title="twitter" alt="" srcset="">
                 </a>
               </li>
-              <li>
-                <a href="http://">
-                  <img src="@/assets/images/social-media/medium.svg" title="medium" alt="" srcset="">
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -53,7 +48,7 @@
   @media (min-width: 62rem) {
     .js-footer {
       width: 100%;
-      background-image: url('../assets/images/background.svg')
+      border-top: 1px solid #e2e2e2;
     }
 
     .js-footer .container {
@@ -66,7 +61,7 @@
     }
 
     .js-footer .container .footer-copyright span {
-      color: #fff;
+      color: #888;
       display: block;
     }
 
@@ -86,6 +81,10 @@
       -moz-transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
       -o-transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
     }
 
     .js-footer .container .js-social-media li a img:hover {
@@ -99,7 +98,7 @@
   @media (max-width: 61.9375rem) {
     .js-footer {
       width: 100%;
-      background-image: url('../assets/images/background.svg')
+      border-top: 1px solid #e2e2e2;
     }
 
     .js-footer .container {
@@ -124,7 +123,7 @@
     }
 
     .js-footer .container .footer-copyright span {
-      color: #fff;
+      color: #888;
       display: block;
     }
 
@@ -144,6 +143,10 @@
       -moz-transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
       -o-transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
       transition: .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
     }
 
     .js-footer .container .js-social-media li a img:hover {

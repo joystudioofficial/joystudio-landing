@@ -53,7 +53,7 @@
     display: block;
     width: 0;
     height: .2rem;
-    background-color: var(--primary-color);
+    background-color: #fff;
     -webkit-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
     -moz-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
     -o-transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
@@ -120,6 +120,10 @@
     font-weight: bold;
     font-size: 2rem;
     text-decoration: none;
+  }
+
+  .js-navigation .container .js-navigation-brand .js-navigation-logo span {
+    color: var(--primary-color);
   }
 
   .js-navigation .container .js-navigation-menu {

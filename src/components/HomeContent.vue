@@ -87,11 +87,11 @@
                 <div class="row">
                   <div class="column column-50 column-left">
                     <span class="portfolio-name">
-                      MedikaCom Digital System
+                      Laracomp Company Profile
                     </span>
                   </div>
                   <div class="column column-50 column-right">
-                    <img src="@/assets/images/Portfolio/mds.png" alt="" srcset="">
+                    <img src="@/assets/images/Portfolio/Laracomp.png" alt="" srcset="">
                   </div>
                 </div>
               </div>
@@ -111,13 +111,13 @@
         <div class="js-tech-body">
           <div class="row">
             <div class="column">
-              <img src="@/assets/images/web-technology/reactjs.png" alt="" srcset="">
+              <img src="@/assets/images/web-technology/laravel.png" alt="" srcset="">
             </div>
             <div class="column">
               <img src="@/assets/images/web-technology/vue.png" alt="" srcset="">
             </div>
             <div class="column">
-              <img src="@/assets/images/web-technology/expressjs.png" alt="" srcset="">
+              <img src="@/assets/images/web-technology/nodejs.svg" alt="" srcset="">
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default {
   //Colors
   $black: #34435E;
   $white: #ffffff;
-  $primaryColor: #1DD1A1;
+  $primaryColor: #089390;
 
   * {
     font-family: $font-poppins;

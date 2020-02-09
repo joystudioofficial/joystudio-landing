@@ -3,7 +3,7 @@
     <nav class="js-navigation">
       <div class="container cf">
         <div class="js-navigation-brand">
-          <a href="http://" class="js-navigation-logo">Joy <span style="color: #1DD1A1;">Studio.</span></a>
+          <a href="http://" class="js-navigation-logo">Joy <span>Studio</span>.</a>
         </div>
 
         <button class="btn btn-open-side-bar" id="btnOpenSideMenu" @click="showSidebar">

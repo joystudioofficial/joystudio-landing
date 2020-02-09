@@ -5,10 +5,10 @@
         <div class="container">
           <div class="row">
             <div class="column column-one column-sm-100 column-md-50">
-              <img src="@/assets/images/startup.svg" alt="" srcset="">
+              <img src="@/assets/images/rocket.svg" alt="" srcset="">
             </div>
             <div class="column column-two column-sm-100 column-md-50">
-              <h1>Joy <span style="color: #1DD1A1;">Studio</span></h1>
+              <h1>Joy Studio.</h1>
               <p>Ease your life with us</p>
             </div>
           </div>
