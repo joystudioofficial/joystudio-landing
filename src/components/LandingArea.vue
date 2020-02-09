@@ -10,7 +10,6 @@
             <div class="column column-two column-sm-100 column-md-50">
               <h1>Joy <span style="color: #1DD1A1;">Studio</span></h1>
               <p>Ease your life with us</p>
-              <a href="http://" class="btn btn-getting-start">Get Started</a>
             </div>
           </div>
 

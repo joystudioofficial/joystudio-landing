@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="HomeContent">
 
     <!-- About -->
     <section id="about-js-section">
@@ -87,11 +87,11 @@
                 <div class="row">
                   <div class="column column-50 column-left">
                     <span class="portfolio-name">
-                      Operational Dashboard Company
+                      MedikaCom Digital System
                     </span>
                   </div>
                   <div class="column column-50 column-right">
-                    <img src="@/assets/images/Portfolio/OperationalApp.png" alt="" srcset="">
+                    <img src="@/assets/images/Portfolio/mds.png" alt="" srcset="">
                   </div>
                 </div>
               </div>
@@ -126,6 +126,11 @@
 
   </div>
 </template>
+
+<script>
+export default {
+}
+</script>
 
 <style lang="scss" scoped>
   //Text Styles 

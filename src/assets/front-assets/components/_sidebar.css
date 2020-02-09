@@ -18,41 +18,79 @@
     display: none;
   }
 
-  .js-side-bar-overlay.open {
+  .js-side-bar-overlay.active {
     display: block;
   }
 
+  .js-side-bar-overlay.active .js-side-bar {
+    -webkit-animation: show 1s;
+    -moz-animation: show 1s;
+    -o-animation: show 1s;
+    animation: show 1s;
+  }
+
+  @-webkit-keyframes show {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes show {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  @-o-keyframes show {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
   .js-side-bar-overlay .js-side-bar {
-    position: absolute;
-    top: 0.5rem;
-    left: 0.8rem;
-    width: 20rem;
-    min-height: 50%;
+    margin: 2rem 2rem;
     background-color: #fff;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-      -o-box-sizing: border-box;
-          box-sizing: border-box;
-    -webkit-box-shadow: 7px 0 7px rgba(0,0,0,0.25);
-    -moz-box-shadow: 7px 0 7px rgba(0,0,0,0.25);
-    -o-box-shadow: 7px 0 7px rgba(0,0,0,0.25);
-    box-shadow: 7px 0 7px rgba(0,0,0,0.25);
-    -webkit-transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    -moz-transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    -o-transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    transition: 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    border-radius: 0.4rem;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
   }
 
   .js-side-bar-overlay .js-side-bar .container .js-side-header {
     width: 100%;
-    background-color: var(--primary-color);
     padding: 3rem;
-    border-radius: 0.4rem 0.4rem 0 0;
   }
 
   .js-side-bar-overlay .js-side-bar .container .js-side-header .js-side-menu-brand .js-side-menu-logo {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
@@ -62,15 +100,15 @@
     border: transparent;
     background-color: transparent;
     position: absolute;
-    top: 0;
+    top: 2.8rem;
     left: 1rem;
     cursor: pointer;
     outline: none;
   }
 
   .js-side-bar-overlay .js-side-bar .container .js-side-header .btn-close-side-bar span {
-    color: #fff;
-    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-size: 3rem;
   }
 
   .js-side-bar-overlay .js-side-bar .container .js-side-section-menu {

@@ -9,6 +9,10 @@
           box-sizing: border-box; */
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 /* Set the container size */
 /* .container {
   max-width: 80rem;
