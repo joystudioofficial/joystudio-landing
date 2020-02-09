@@ -27,7 +27,7 @@
           <div class="row">
             <div class="column column-50 column-left">
               <div class="card">
-                <img src="@/assets/images/web-development.svg" alt="" srcset="">
+                <img src="@/assets/images/web.svg" alt="" srcset="">
 
                 <span class="js-service">
                   Web Development
@@ -87,11 +87,11 @@
                 <div class="row">
                   <div class="column column-50 column-left">
                     <span class="portfolio-name">
-                      Laracomp Company Profile
+                      MedikaCom Digital System
                     </span>
                   </div>
                   <div class="column column-50 column-right">
-                    <img src="@/assets/images/Portfolio/Laracomp.png" alt="" srcset="">
+                    <img src="@/assets/images/Portfolio/mds.png" alt="" srcset="">
                   </div>
                 </div>
               </div>

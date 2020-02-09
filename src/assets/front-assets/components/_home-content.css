@@ -70,6 +70,10 @@
     width: 15rem;
     display: block;
     margin: 5rem auto;
+    -webkit-filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
+    -moz-filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
+    -o-filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
   }
 
   #js-services-section .container .js-services-body .row .column .card .js-service {
@@ -112,7 +116,7 @@
   }
 
   #js-portfolio-section .container .js-portfolio-body .row .column .card .row .column-left {
-    text-align: left;
+    text-align: center;
   }
 
   #js-portfolio-section .container .js-portfolio-body .row .column .card .row .column-left .portfolio-name {
@@ -120,7 +124,7 @@
   }
 
   #js-portfolio-section .container .js-portfolio-body .row .column .card .row .column-right img {
-    width: 45rem;
+    width: 25rem;
     height: 35rem;
     -webkit-filter: drop-shadow(0 35px 50px rgba(0,0,0,0.3));
     -moz-filter: drop-shadow(0 35px 50px rgba(0,0,0,0.3));
@@ -256,6 +260,10 @@
       width: 15rem;
       display: block;
       margin: 5rem auto;
+      -webkit-filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
+      -moz-filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
+      -o-filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
+      filter: drop-shadow(0 20px 35px rgba(0,0,0,0.3));
     }
   
     #js-services-section .container .js-services-body .row .column .card .js-service {
