@@ -16,23 +16,18 @@
           <div class="column column-50 column-right">
             <ul class="js-social-media">
               <li>
-                <a href="http://">
+                <a href="https://www.facebook.com/joystudioofficial/" target="_blank">
                   <img src="@/assets/images/social-media/facebook.svg" title="facebook" alt="" srcset="">
                 </a>
               </li>
               <li>
-                <a href="http://">
+                <a href="https://www.instagram.com/joystudio.official/" target="_blank">
                   <img src="@/assets/images/social-media/instagram.svg" title="instagram" alt="" srcset="">
                 </a>
               </li>
               <li>
-                <a href="http://">
+                <a href="https://github.com/joystudioofficial" target="_blank">
                   <img src="@/assets/images/social-media/github.svg" title="github" alt="" srcset="">
-                </a>
-              </li>
-              <li>
-                <a href="http://">
-                  <img src="@/assets/images/social-media/twitter.svg" title="twitter" alt="" srcset="">
                 </a>
               </li>
             </ul>
